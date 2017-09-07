@@ -1,0 +1,195 @@
+
+#divLang {
+    position: absolute;
+    z-index: 8;
+    height: 5%;
+    width: 20%;
+    top: 3%;
+    left: 3%;
+    cursor: pointer;
+}
+
+#divBigBoard {
+    position: absolute;
+    z-index: 7;
+    height: 50%;
+    width: 30%;
+    top: 50%;
+    left: 0%;
+}
+
+
+#divBigBoardShopReclam {
+    position: absolute;
+    z-index: 8;
+    height: 30%;
+    width: 90%;
+    top: 5%;
+    left: 6%;
+    cursor: pointer;
+}
+
+
+#divBigBoardSecurity {
+    position: absolute;
+    z-index: 9;
+    height: 30%;
+    width: 90%;
+    top: 5%;
+    left: 6%;
+    cursor: pointer;
+}
+
+#divBigBoardTestShop1 {
+    position: absolute;
+    z-index: 10;
+    height: 30%;
+    width: 90%;
+    top: 5%;
+    left: 6%;
+    cursor: pointer;
+}
+
+#divManager {
+    position: absolute;
+    z-index: 8;
+    height: 17%;
+    width: 6%;
+    top: 75%;
+    left: 36%;
+    cursor: pointer;
+}
+
+#divVopros {
+    position: absolute;
+    height: 5%;
+    width: 3%;
+    top: -70%;
+    left: 42%;
+    z-index: 2;
+}
+
+#divSpinner {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 45%;
+    left: 45%;
+    z-index: 2;
+    text-align: center;
+    background-repeat: no-repeat; 
+    background-size:100%; 
+    -o-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%;
+}
+
+#divRedirectBttn {
+    position: absolute;
+    z-index: 8;
+    height: 20%;
+    width: 25%;
+    top: 83%;
+    left: 50%;
+}
+
+#divRedirect {
+    position: absolute;
+    z-index: 8;
+    height: 18%;
+    width: 18%;
+    top: 65%;
+    left: 53%;
+    border-color: #dddddd;
+    border-style: solid solid solid hidden;
+    border-width: 1px 1px 1px 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.divRainSnow {
+    position: absolute;
+    z-index: 6;
+    height: 10%;
+    width: 10%;
+    left: 0%;
+    background-repeat: repeat-x; 
+    background-repeat: no-repeat; 
+}
+
+#divBackground {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0; 
+    min-width:100%;
+    min-height:100%;
+}
+
+
+body {
+
+}
+
+.bttnEntrance{
+    width: 50%;
+    height: 25%;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bttnRent{
+    width: 45%;
+    height: 25%;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#div_shop_info{
+    position: fixed;
+    left: 50%;
+    margin-left: -25%;
+    top: -50%;
+    margin-top: -25%;
+    width: 0%;
+    height: 0%;
+    background-color: lightyellow;
+    z-index: 20;
+    border-color: orange;
+    border-style: double double double double;
+    border-width: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+.shop_article_name {
+    text-align: left;
+    color: black;
+    border-style: solid solid solid solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #D20005; 
+    background:none repeat scroll 0 0 #FFFFFFF;
+}
+
+.small_title_text {
+    text-align: center;
+    font-weight : bold;
+    color: darkgreen;
+}
+
+.bigboard_reclam_text {
+    text-align: center;
+    font-weight : bold;
+    color: darkgreen;
+    font-size: x-large;
+}
+
+
+.ui-icon-cancel{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
